@@ -1,0 +1,42 @@
+.testimonial-slider {
+  width: 500px;
+  background-color: blue;
+}
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev {
+  top: 193px;
+  left: 2%;
+}
+.slick-next {
+  top: 193px;
+  right: 91%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: green;
+}
+
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 0.2;
+}
+
+.slick-active {
+  opacity: 0.5;
+}
+
+.slick-current {
+  opacity: 1;
+}
